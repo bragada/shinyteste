@@ -41,7 +41,7 @@ info <- \(texto){
 
 
 server <- function(input, output, session) {
-  waiter_hide()
+  #waiter_hide()
   
   # ACESSO
   Sys.setenv("AWS_ACCESS_KEY_ID" = "AKIAZXAS4GOKVFKH4TUQ",

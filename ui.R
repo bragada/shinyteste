@@ -29,10 +29,10 @@ ui <- bs4DashPage(
                      
                      
                      # CONFIGS ----
-                     useWaiter(), 
-                     waiterShowOnLoad(html =spin_6(),color = "rgba(13,32,43,0.87)"),
-                     waiterOnBusy(html = spin_6(),color = "rgba(13,32,43,0.87)"),
-                     useHostess(),
+                     #useWaiter(), 
+                     #waiterShowOnLoad(html =spin_6(),color = "rgba(13,32,43,0.87)"),
+                     #waiterOnBusy(html = spin_6(),color = "rgba(13,32,43,0.87)"),
+                     #useHostess(),
                      
                      use_theme(create_theme(bs4dash_color(
                        #blue = "#042365",
